@@ -1,17 +1,18 @@
-void setup() {
+void setup() 
+{
   void setup()
-{ for(int i=13;i<=5;i--)
+{ for(int i=13;i>=5;i--)
   pinMode(i,OUTPUT);
 }
-
+}
 void loop()
 {
- for(int j=13;j<=5;j--)
+ for(int j=13;j>=5;j--)
  {
    digitalWrite(j,HIGH);
-   delay(100);
+   delay(1000);
    digitalWrite(j,LOW);
-   delay(100);
+   delay(1000);
  }
 }
   
